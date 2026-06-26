@@ -9,3 +9,7 @@ display: none;
 div#left-menu-MY-btn {
 order: -1;
 }
+
+#left-menu-upload-btn {
+  display: none;
+}
