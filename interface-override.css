@@ -2,8 +2,10 @@
 
 /* Hide AI Banner */
 .ms-dashboards__StartFrom-module__main--FANmd {
-display: none;
+  display: none;
 }
+
+/* ---------- MEDIA MANAGER ---------- */
 
 /* ---------- Image Picker ---------- */
 div#left-menu-MY-btn {
@@ -12,4 +14,9 @@ order: -1;
 
 #left-menu-upload-btn {
   display: none;
+}
+
+/* ---------- COLLECTIONS INTERFACE ---------- */
+.CoreTable-module_table-body__-Es1D::-webkit-scrollbar {
+  height: 12px;
 }
