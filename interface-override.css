@@ -7,14 +7,20 @@
 
 /* ---------- MEDIA MANAGER ---------- */
 
-/* ---------- Image Picker ---------- */
+/* ---------- Left Side Panel ---------- */
+
 div#left-menu-MY-btn {
 order: -1;
 }
 
-/* #left-menu-upload-btn {
+#left-menu-FREE-btn,
+#left-menu-PREMIUM-btn {
   display: none;
-} */
+}
+
+#left-menu-upload-btn hr {
+  display: none;
+} 
 
 /* ---------- COLLECTIONS INTERFACE ---------- */
 .CoreTable-module_table-body__-Es1D::-webkit-scrollbar {
