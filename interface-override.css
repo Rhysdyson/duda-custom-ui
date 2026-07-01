@@ -20,7 +20,11 @@ order: -1;
 
 #left-menu-upload-btn hr {
   display: none;
-} 
+}
+
+.FolderList-module-main-gAoQQ-aps {
+  max-height: auto;
+}
 
 /* ---------- COLLECTIONS INTERFACE ---------- */
 .CoreTable-module_table-body__-Es1D::-webkit-scrollbar {
