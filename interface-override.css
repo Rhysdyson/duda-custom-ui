@@ -18,6 +18,12 @@ order: -1;
   display: none;
 }
 
+/* Upload Button */
+
+#left-menu-upload-btn {
+  display: none;
+}
+
 #left-menu-upload-btn hr {
   display: none;
 }
