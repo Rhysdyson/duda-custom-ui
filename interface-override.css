@@ -37,28 +37,23 @@
 
 /* SIDEBAR */
 
-  /* Hide collection thumbnail icons */
-  [data-auto^="collection-item-"][data-auto$="-icon-thumbnail"] {
-    display: none;
+  /* Hide the icon */
+  div[data-auto="collection-item-cvps-icon-thumbnail"] {
+    display: none !important;
   }
   
-  /* Reduce padding on collection items */
-  [data-auto^="collection-item-"]:not(
-    [data-auto$="-main"],
-    [data-auto$="-clickable"],
-    [data-auto$="-icon-thumbnail"],
-    [data-auto$="-title"],
-    [data-auto$="-text"]
-  ) {
-    padding: 6px;
+  /* Reduce padding */
+  div[data-auto="collection-item-cvps"] {
+    padding: 6px !important;
   }
   
-  /* Put collection title + item count on the same row */
-  [data-auto^="collection-item-"][data-auto$="-clickable"]
-    .ListItem-module_listItemContent__AmLdM {
-    flex-direction: row;
-    gap: 6px;
-    align-items: center;
+  /* Put title + "Internal · 3 Items" on one row */
+  div[data-auto="collection-item-cvps-clickable"]
+  > div.ListItem-module_listItemContent__AmLdM {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 6px !important;
   }
 
 /* COLLECTIONS TABLE */
@@ -71,10 +66,10 @@
 /* DROPDOWN SAVE BUTTONS */
 
   form[data-auto="add-field-popup"] {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
   
   form[data-auto="add-field-popup"] > div:has(button[data-auto="save"]) {
-    order: -1;
+    order: -1 !important;
   }
