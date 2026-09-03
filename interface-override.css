@@ -37,3 +37,13 @@ order: -1;
   height: 12px;
   width: 12px;
 }
+
+/* DROPDOWN SAVE BUTTONS */
+form[data-auto="add-field-popup"] {
+  display: flex;
+  flex-direction: column;
+}
+
+form[data-auto="add-field-popup"] > div:has(button[data-auto="save"]) {
+  order: -1;
+}
