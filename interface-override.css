@@ -33,6 +33,25 @@ order: -1;
 }
 
 /* ---------- COLLECTIONS INTERFACE ---------- */
+
+/* SIDEBAR */
+
+/* Remove icons */
+.IconThumbnail-module_iconThumbnail__jnvh4.IconThumbnail-module_solidGrey__dZpQj.IconThumbnail-module_border-default__QJbD4.IconThumbnail-module_size40__RAdYm {
+  display: none;
+}
+
+[data-auto="collection-item-cvps"] {
+  padding: 6px;
+}
+
+[data-auto="collection-item-cvps-clickable"] .collection-item-cvps-icon-thumbnail .ListItem-module_listItemContent__AmLdM {
+  flex-diretion: row;
+  gap: 6px;
+}
+
+/* COLLECTIONS TABLE */
+
 .CoreTable-module_table-body__-Es1D::-webkit-scrollbar {
   height: 12px;
   width: 12px;
