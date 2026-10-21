@@ -10,6 +10,13 @@
     display: none;
   }
 
+  /* Dashboard and Templates AI Banners */
+  [data-auto="vibe-discoverability-banner"],
+  [data-auto="templates-page-editor-prompt"] {
+    display: none;
+    visibility: hidden;
+  }
+
 /* ---------- MEDIA MANAGER ---------- */
 
 /* ---------- Left Side Panel ---------- */
